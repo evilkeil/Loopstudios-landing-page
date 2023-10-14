@@ -28,6 +28,7 @@ picture {
 body {
     line-height: 1.5;
     min-height: 100dvh;
+    font-size: 15px;
 }
 
 /* make images easier to work with */
@@ -74,6 +75,9 @@ ol[role='list'] {
     --Dark-Gray: hsl(0, 0%, 55%);
     --Very-Dark-Gray: hsl(0, 0%, 41%);
 
+    /* fonts  */
+    --ff-main:'Josefin Sans', sans-serif;
+    --ff-secondary:font-family: 'Alata', sans-serif;
 }
 
 
