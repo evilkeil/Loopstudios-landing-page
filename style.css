@@ -61,3 +61,23 @@ ol[role='list'] {
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------- */
+/* Variables           */
+/* ------------------- */
+
+:root{
+    
+    /* color variables */
+
+
+}
+
+
+/* ------------------- */
+/* Header/hero              */
+/* ------------------- */
+.header{
+    height: 100vh;
+    background-image: url(images/desktop/image-hero.jpg);
+}
