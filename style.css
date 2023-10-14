@@ -77,14 +77,33 @@ ol[role='list'] {
 
     /* fonts  */
     --ff-main:'Josefin Sans', sans-serif;
-    --ff-secondary:font-family: 'Alata', sans-serif;
+    --ff-secondary: 'Alata', sans-serif;
 }
 
 
 /* ------------------- */
-/* Header/hero              */
+/* Header/hero         */
 /* ------------------- */
 .header{
     height: 100vh;
     background-image: url(images/desktop/image-hero.jpg);
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right:10rem;
+}
+
+.main-navbar{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-ul {
+    color: var(--White);
+    display: flex;
+    font-family: var(--ff-secondary);
+    gap: 1rem;
+    align-items: center;
 }
