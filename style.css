@@ -80,6 +80,13 @@ ol[role='list'] {
     --ff-secondary: 'Alata', sans-serif;
 }
 
+/* ------------------- */
+/* UTILITY         */
+/* ------------------- */
+
+.uppercase{
+    text-transform: uppercase;
+}
 
 /* ------------------- */
 /* Header/hero         */
@@ -106,4 +113,13 @@ ol[role='list'] {
     font-family: var(--ff-secondary);
     gap: 1rem;
     align-items: center;
+}
+
+.hero{
+    border: 2px solid var(--White);
+    color: var(--White);
+    font-family: var(--ff-main);
+    font-size: 3rem;
+    width: 60%;
+    margin-top: 7rem;
 }
