@@ -82,15 +82,17 @@ ol[role='list'] {
 }
 
 /* ------------------- */
-/* UTILITY         */
+/*     UTILITY         */
 /* ------------------- */
 
 .uppercase{
     text-transform: uppercase;
 }
 
+
+
 /* ------------------- */
-/*HEADER      */
+/*     HEADER      */
 /* ------------------- */
 
 .header-wrapper{
@@ -249,4 +251,8 @@ transform-style: preserve-3d;
     width: 80%;
     
 }
+
+/* ------------------- */
+/* ßCREATIONS SECTION */
+/* ------------------- */
 
