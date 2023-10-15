@@ -207,8 +207,13 @@ transform-style: preserve-3d;
     height: 50%;
     padding: 2rem;
     padding-top: 1rem;
+    padding-bottom: 0;
     /* border: 1px solid blue; */
     padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .about-h2{
@@ -218,5 +223,6 @@ transform-style: preserve-3d;
 .about-p{
     font-family: var(--ff-main);
     font-size: 0.875rem;
+    line-height: 0.9375rem;
     
 }
