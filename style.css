@@ -258,6 +258,10 @@ transform-style: preserve-3d;
 /* ßCREATIONS SECTION */
 /* ------------------- */
 
+.creations-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+}
 
 
 .creations-wrapper p {
@@ -267,4 +271,16 @@ transform-style: preserve-3d;
 
 .creations-title{
     font-family: var(--ff-main);
+}
+
+.creations-top{
+    border: 1px solid red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.creations-main{
+    border: 1px solid blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
