@@ -95,6 +95,8 @@ ol[role='list'] {
 /*     HEADER      */
 /* ------------------- */
 
+
+
 .header-wrapper{
     height: 100vh;
     width: 100vw;
@@ -256,3 +258,13 @@ transform-style: preserve-3d;
 /* ßCREATIONS SECTION */
 /* ------------------- */
 
+
+
+.creations-wrapper p {
+    font-family: var(--ff-main);
+    /* color: var(--White); */
+}
+
+.creations-title{
+    font-family: var(--ff-main);
+}
