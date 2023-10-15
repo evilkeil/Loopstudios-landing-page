@@ -355,3 +355,26 @@ transform-style: preserve-3d;
     gap: 3rem;
 }
 
+/* creations hover animations  */
+.card,
+.card-img{
+    transition: transform 200ms ease-in-out;
+}
+.card-img:hover{
+    filter: grayscale(9);
+    
+}
+
+.card:hover{
+    transform: rotate(7deg);
+    cursor: pointer;
+}
+
+.creations-btn:hover{
+    border-color: var(--Very-Dark-Gray);
+    background-color: var(--Very-Dark-Gray);
+}
+
+.creations-btn:hover a{
+    color: var(--White);
+}
