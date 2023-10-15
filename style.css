@@ -221,7 +221,7 @@ transform-style: preserve-3d;
     font-family: var(--ff-main);
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    width: 80%;
+    width: 100%;
     line-height: 2.5rem;
   
    
@@ -232,6 +232,7 @@ transform-style: preserve-3d;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 80%;
     
 }
 
@@ -248,3 +249,4 @@ transform-style: preserve-3d;
     width: 80%;
     
 }
+
