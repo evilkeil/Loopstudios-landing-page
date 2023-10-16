@@ -158,6 +158,32 @@ transform-style: preserve-3d;
     align-items: center;
 }
 
+.header-li{
+    position: relative;
+}
+
+.header-li::after{
+content: "";
+height: 2px;
+width: 100%;
+background-color: white;
+position: absolute;
+bottom: 0;
+left: 0;
+border-radius: 9999px;
+margin-top: 1rem;
+transform: scale(0);
+transition: transform 200ms ease-in-out;
+
+}
+.header-li:hover::after{
+transform: scale(0.5);
+}
+
+.header-li:hover{
+    cursor: pointer;
+}
+
 .hero{
     border: 2px solid var(--White);
     color: var(--White);
@@ -372,8 +398,8 @@ transform-style: preserve-3d;
 }
 
 .creations-btn:hover{
-    border-color: var(--Very-Dark-Gray);
-    background-color: var(--Very-Dark-Gray);
+    
+    background-color: var(--Black);
 }
 
 .creations-btn:hover a{
