@@ -384,7 +384,37 @@ transform-style: preserve-3d;
 /* FOOTER */
 /* ------------------- */
 
+/* general styles */
+
 footer{
     background-color: var(--Black);
     color: var(--White);
+    padding: 1rem;
+    margin-top: 2rem;
 }
+
+
+/* footer placements */
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 40% 40% 1fr;
+}
+
+.footer-left{
+    grid-column:2/3;
+}
+
+.footer-right{
+    grid-column: 3/4;
+}
+
+/* footer left styles */
+.footer-ul{
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5rem;
+}
+
