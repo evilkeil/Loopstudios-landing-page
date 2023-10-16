@@ -30,6 +30,7 @@ body {
     min-height: 100dvh;
     font-size: 15px;
     overflow-x: hidden;
+    position: relative;
 }
 
 /* make images easier to work with */
@@ -376,5 +377,14 @@ transform-style: preserve-3d;
 }
 
 .creations-btn:hover a{
+    color: var(--White);
+}
+
+/* ------------------- */
+/* FOOTER */
+/* ------------------- */
+
+footer{
+    background-color: var(--Black);
     color: var(--White);
 }
