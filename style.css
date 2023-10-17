@@ -264,6 +264,7 @@ transform-style: preserve-3d;
         padding: 0;
         flex-direction: column;
         justify-content: center;
+        transform: translateX(100%);
         
     }
     .header-li {
@@ -274,6 +275,39 @@ transform-style: preserve-3d;
         display: flex;
         justify-content: flex-start;
         padding-left: 2rem;
+    }
+ /* the logo when the nav is open */
+
+    
+    .logo-nav-open{  
+        z-index: 2;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+
+    }
+    .hamburger-menu{
+        z-index: 2000;
+        position: absolute;
+        top: 2em;
+        right: 2rem;
+        width: 32px;
+        aspect-ratio: 1;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    .btn-close{
+        background-color: hsla(270, 100%, 50%, 0); 
+        background-image: url(images/icon-hamburger.svg);
+        background-position: center;
+    }
+    .btn-open{
+        background-color: hsla(270, 100%, 50%, 0); 
+        background-image: url(images/icon-close.svg);
+        background-position: center;
+       
+       
     }
 }
 
