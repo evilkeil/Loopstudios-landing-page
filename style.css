@@ -90,6 +90,32 @@ ol[role='list'] {
     text-transform: uppercase;
 }
 
+.nav-hover-effect{
+    position: relative;
+}
+
+.nav-hover-effect::after{
+content: "";
+height: 2px;
+width: 100%;
+background-color: white;
+position: absolute;
+bottom: 0;
+left: 0;
+border-radius: 9999px;
+margin-top: 1rem;
+transform: scale(0);
+transition: transform 200ms ease-in-out;
+
+}
+.nav-hover-effect:hover::after{
+transform: scale(0.5);
+}
+
+.nav-hover-effect:hover{
+    cursor: pointer;
+}
+
 
 
 /* ------------------- */
@@ -158,7 +184,7 @@ transform-style: preserve-3d;
     align-items: center;
 }
 
-.header-li{
+/* .header-li{
     position: relative;
 }
 
@@ -182,7 +208,7 @@ transform: scale(0.5);
 
 .header-li:hover{
     cursor: pointer;
-}
+} */
 
 .hero{
     border: 2px solid var(--White);
