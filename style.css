@@ -264,8 +264,12 @@ transform-style: preserve-3d;
         padding: 0;
         flex-direction: column;
         justify-content: center;
-        transform: translateX(100%);
-        
+        /* transform: translateX(100%);   */
+    }
+
+   
+    .header-ul-close{
+        transform: translateX(100%);  
     }
     .header-li {
         width: 100%;
