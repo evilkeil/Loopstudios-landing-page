@@ -225,9 +225,7 @@ transform-style: preserve-3d;
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
     }
-    .header-wrapper{
-        /* position: relative; */
-        }
+   
     .main-navbar{
         top:0;
         grid-column: 1/5;
@@ -399,6 +397,10 @@ transform-style: preserve-3d;
     width: 80%;
     color: var(--Dark-Gray);
     
+}
+
+.about-mobile{
+display: none;
 }
 
 /* ------------------- */
