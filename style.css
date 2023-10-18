@@ -625,7 +625,13 @@ display: none;
 .creations-btn{
     grid-column: 2/3;
     grid-row:3;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
     }
+.creations-a{
+    width: 40%;
+}
     /* creations main mobile grid  */
 .creations-main{
         display: grid;
