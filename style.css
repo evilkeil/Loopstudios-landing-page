@@ -713,3 +713,29 @@ footer{
     justify-content: center;
     padding-bottom: 5px;
 }
+
+@media (max-width: 480px){
+footer{
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    }
+.footer-left{
+    grid-column:2/3;
+    }
+.footer-right{
+        grid-column: 2/3;
+}
+
+.footer-ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+}
