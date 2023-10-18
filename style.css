@@ -615,6 +615,8 @@ display: none;
     font-size: 1.5rem;
     grid-column: 2/3;
     grid-row: 1;
+    margin-bottom: 2rem;
+    text-align: center;
     }
 .creations-main{
     grid-column: 2/3;
