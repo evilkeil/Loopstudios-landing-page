@@ -724,6 +724,8 @@ footer{
     }
 .footer-right{
         grid-column: 2/3;
+        justify-self: normal;
+        margin-top: 2rem;
 }
 
 .footer-ul{
@@ -737,5 +739,15 @@ footer{
     justify-content: center;
 
 }
+.social{
+    width: 100%;
+}
+.social-ul{
+   
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
 
 }
