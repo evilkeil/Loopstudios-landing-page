@@ -587,6 +587,20 @@ display: none;
     color: var(--White);
 }
 
+.card-mobile{
+    display: none;
+}
+
+/* card-mobile version  */
+@media (max-width: 480px){
+  .card-mobile{
+    display: block;
+  }
+  .card-desktop{
+    display: none;
+  }
+}
+
 /* ------------------- */
 /* FOOTER */
 /* ------------------- */
