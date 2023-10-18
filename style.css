@@ -602,28 +602,34 @@ display: none;
 
 /* creations-mobile version  */
 @media (max-width: 480px){
-  .card-mobile{
+.card-mobile{
     display: block;
-  }
-  .card-desktop{
+    }
+.card-desktop{
     display: none;
-  }
-  .creations-wrapper{
+    }
+.creations-wrapper{
     grid-template-columns: 1fr 90% 1fr;
-  }
-  .creations-title {
+    }
+.creations-title {
     font-size: 1.5rem;
     grid-column: 2/3;
     grid-row: 1;
-  }
-  .creations-main{
+    }
+.creations-main{
     grid-column: 2/3;
     grid-row: 2;
-  }
-  .creations-btn{
+    }
+.creations-btn{
     grid-column: 2/3;
     grid-row:3;
-}
+    }
+    /* creations main mobile grid  */
+.creations-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
 
 }
 
